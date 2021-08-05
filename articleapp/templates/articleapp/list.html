@@ -10,8 +10,8 @@
           justify-content: center;
           align-items: center;
           border-radius: 1rem;
-            flex-direction: column;
-            box-shadow: 0 0 1rem gray;
+          flex-direction: column;
+          box-shadow: 0 0 1rem gray;
         }
 
         .container img {
@@ -37,5 +37,7 @@
 
     <script src="{% static 'js/magicgrid.js' %}"></script>
 
+    {% include 'snippets/pagination.html' %}
 
 {% endblock %}
+
