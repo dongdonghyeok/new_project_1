@@ -56,4 +56,6 @@
 .article-content {
     text-align: left;
     font-size: 1.1rem;
+    width: 70%;
+    margin: auto;
 }
