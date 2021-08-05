@@ -46,3 +46,14 @@
     color: dimgrey;
 }
 
+.article-image {
+    width: 70%;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem grey;
+
+}
+
+.article-content {
+    text-align: left;
+    font-size: 1.1rem;
+}
