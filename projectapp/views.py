@@ -25,4 +25,3 @@ class ProjectDetailView(DetailView):
     model = Project
     context_object_name = 'target_project'
     template_name = 'projectapp/detail.html'
-
